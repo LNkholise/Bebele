@@ -26,7 +26,7 @@ A simple and modern Bible app for reading, exploring, and sharing Scripture.
 ## Installation & Running
 
 ```bash
-git clone https://github.com/your-username/Bebele.git
+git clone https://github.com/LNkholise/Bebele.git
 cd bebele
 ```
 ```bash
