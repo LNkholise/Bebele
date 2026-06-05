@@ -4,14 +4,12 @@ A simple and modern Bible app for reading, exploring, and sharing Scripture.
 
 ## Screenshots
 
-<p align="center">
-  <span style="margin-right: 15px;">
-    <img src="screenshots/1.png" width="220" />
-  </span>
-  <span style="margin-right: 15px;">
-    <img src="screenshots/2.png" width="220" />
-  </span>
-  <img src="screenshots/3.png" width="220" />
+<p align="start">
+  <img src="assets/1.webp" width="220" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/2.webp" width="220" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/3.webp" width="220" />
 </p>
 
 ---
@@ -52,8 +50,11 @@ For more commands, please check `package.json`.
 <div align="left">
 
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+&nbsp;&nbsp;
 ![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+&nbsp;&nbsp;
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+&nbsp;&nbsp;
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 </div>
