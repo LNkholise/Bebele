@@ -22,7 +22,8 @@ A simple and modern Bible app for reading, exploring, and sharing Scripture.
 - Intuitive **slider controls** for selecting books, chapters, and verses
 - Fast and lightweight user experience
 - Clean, mobile-friendly interface
-
+- Works **completely offline**
+  
 ## Installation & Running
 
 ```bash
