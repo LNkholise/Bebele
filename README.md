@@ -59,3 +59,9 @@ For more commands, please check `package.json`.
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 </div>
+
+## 🤝 Join the Mission
+
+Technology is a powerful tool for connection, and this project is an open invitation to use your technical skills for a higher purpose. You can help spread the Gospel through this app by contributing new feature ideas, adding multi-language translations, or refining the user experience. Whether you are fixing a small bug or proposing a major feature, your code can help make Scripture more accessible to people around the world!
+
+Feel free to open an issue or submit a pull request!
