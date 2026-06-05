@@ -1,16 +1,18 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import React from 'react';
-import { useColorScheme } from 'react-native';
+import { Stack } from "expo-router";
+import { SQLiteProvider } from "expo-sqlite";
+import React, { Suspense } from "react";
+import { LoadingFallback } from "../../components/loading-fallback";
 
-import { AnimatedSplashOverlay } from '@/components/animated-icon';
-import AppTabs from '@/components/app-tabs';
-
-export default function TabLayout() {
-  const colorScheme = useColorScheme();
+export default function RootLayout() {
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <AnimatedSplashOverlay />
-      <AppTabs />
-    </ThemeProvider>
+    <Suspense fallback={<LoadingFallback />}>
+      <SQLiteProvider
+        databaseName="holybible.db"
+        assetSource={{ assetId: require('../../assets/holybible.db') }}
+        useSuspense={true}
+      >
+        <Stack screenOptions={{headerShown: false}}/>
+      </SQLiteProvider>
+    </Suspense>
   );
 }
